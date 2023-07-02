@@ -1,0 +1,7 @@
+### way of using date method:
+const myDate = new date();
+console.log(myDate); //shows current date & time 
+# myDate.tostring; //does same but as string
+# myDate.getDate(); // only the date 
+# myDate.getMonth() //only passes the index value of a month. For example- 0 for Jan, 1 for Feb etc
+# myDate.getFullYear() //passes the present year
